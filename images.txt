@@ -1,6 +1,15 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+adminer:latest
+kasmweb/nginx:1.25.3	whyour/qinglong:latest
+traefik:latest
+xhofe/alist:latest	xhofe/alist:latest
+--platform=linux/arm64 xiaoyaliu/alist	bitnami/redis:7.2.4
+linuxserver/mariadb:10.11.6
+jeessy/ddns-go:latest
+louislam/uptime-kuma:latest
+linuxserver/code-server:4.22.0
+vaultwarden/server:latest
+jellyfin/jellyfin:latest
+portainer/agent:latest
+portainer/portainer-ce:latest
+containrrr/watchtower:latest
+linuxserver/emby:latest
