@@ -1,8 +1,9 @@
 adminer:latest
-kasmweb/nginx:1.25.3	whyour/qinglong:latest
+whyour/qinglong:latest
 traefik:latest
-xhofe/alist:latest	xhofe/alist:latest
---platform=linux/arm64 xiaoyaliu/alist	bitnami/redis:7.2.4
+xhofe/alist:latest
+--platform=linux/arm64 xiaoyaliu/alist
+bitnami/redis:7.2.4
 linuxserver/mariadb:10.11.6
 jeessy/ddns-go:latest
 louislam/uptime-kuma:latest
